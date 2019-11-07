@@ -81,3 +81,5 @@ LEFT JOIN salaries ON employees.emp_no = salaries.emp_no;
 SELECT first_name, last_name
 FROM employees
 WHERE hire_date BETWEEN '1/1/1986' AND '12/31/1986';
+
+--Display Department Manager Dept #/Dept Name/Emp #/First Name/Last Name/Start Date/End Date
