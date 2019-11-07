@@ -72,14 +72,31 @@ CREATE TABLE dept_emp(
 SELECT *
 FROM dept_emp;
 
---Display Employee First Name/Last Name/Gender/Salary
-SELECT employees.first_name, employees.last_name, employees.gender, salaries.salary
+--Display Employee Last Name/First Name/Gender/Salary
+SELECT employees.last_name, employees.first_name, employees.gender, salaries.salary
 FROM employees
 LEFT JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 --Display Employees Hired in 1986
-SELECT first_name, last_name
+SELECT last_name, first_name, hire_date
 FROM employees
 WHERE hire_date BETWEEN '1/1/1986' AND '12/31/1986';
 
---Display Department Manager Dept #/Dept Name/Emp #/First Name/Last Name/Start Date/End Date
+--Display Department Manager Dept #/Dept Name/Emp #/Last Name/First Name/Start Date/End Date
+SELECT departments.dept_no, departments.dept_name, dept_manager.emp_no, employees.last_name,
+	employees.first_name, dept_manager.from_date, dept_manager.to_date
+FROM dept_manager
+LEFT JOIN departments ON dept_manager.dept_no = departments.dept_no
+LEFT JOIN employees ON dept_manager.emp_no = employees.emp_no;
+
+--Display Employee Emp #/Last Name/First Name/Department Name
+SELECT dept_emp.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM dept_emp
+LEFT JOIN departments ON dept_emp.dept_no = departments.dept_no
+LEFT JOIN employees ON dept_emp.emp_no = employees.emp_no;
+
+--Display Employees with First Name of "Hercules" & Last Name Starting with "B"
+SELECT last_name, first_name
+FROM employees
+WHERE first_name = 'Hercules'
+AND LEFT(last_name, 1) = 'B';
