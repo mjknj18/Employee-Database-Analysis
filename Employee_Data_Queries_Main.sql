@@ -75,6 +75,9 @@ FROM dept_emp;
 --Display Employee First Name/Last Name/Gender/Salary
 SELECT employees.first_name, employees.last_name, employees.gender, salaries.salary
 FROM employees
-LEFT JOIN salaries ON employees.emp_no = salaries.emp_no
+LEFT JOIN salaries ON employees.emp_no = salaries.emp_no;
 
 --Display Employees Hired in 1986
+SELECT first_name, last_name
+FROM employees
+WHERE hire_date BETWEEN '1/1/1986' AND '12/31/1986';
