@@ -1,0 +1,90 @@
+#Employee Data ERD
+
+
+
+#Define Department Data Table
+
+departments
+
+-
+
+dept_no varchar(5) pk
+
+dept_name varchar(30)
+
+
+
+#Define Salary Data Table
+
+salaries
+-
+emp_no int FK >- employees.emp_no
+
+salary int
+
+from_date date
+
+to_date date
+
+
+
+#Define Department Manager Data Table
+
+dept_manager
+-
+
+dept_no varchar(5) FK -< departments.dept_no
+
+emp_no int FK >- employees.emp_no
+
+from_date date
+to_date date
+
+
+
+#Define Title Data Table
+
+titles
+
+-
+
+emp_no int FK >- employees.emp_no
+
+title varchar(30)
+
+from_date date
+
+to_date date
+
+
+#Define Department Employee Data Table
+
+dept_emp
+
+-
+
+emp_no int FK >- employees.emp_no
+
+dept_no varchar(5) FK -< departments.dept_no
+
+from_date date
+
+to_date date
+
+
+
+#Define Employee Data Table
+
+employees
+-
+emp_no int pk
+
+birth_date date
+
+first_name varchar(30)
+
+last_name varchar(30)
+
+gender varchar(1)
+
+hire_date date
