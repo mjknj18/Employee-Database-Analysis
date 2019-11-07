@@ -38,11 +38,36 @@ FROM salaries;
 CREATE TABLE titles(
 	emp_no INT NOT NULL,
 	title VARCHAR(30) NOT NULL,
-	from_date date,
-	to_date date,
+	from_date DATE,
+	to_date DATE,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
 	
 --Display Title Table
 SELECT *
 FROM titles;
 
+--Create Department Manager Table
+CREATE TABLE dept_manager(
+	dept_no VARCHAR(5) NOT NULL,
+	emp_no INT NOT NULL,
+	from_date DATE,
+	to_date DATE,
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
+	
+--Display Department Manager Table
+SELECT *
+FROM dept_manager
+
+--Create Department Employee Table
+CREATE TABLE dept_emp(
+	emp_no INT NOT NULL,
+	dept_no VARCHAR(5) NOT NULL,
+	from_date DATE,
+	to_date DATE,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no));
+	
+--Display Department Employee Table
+SELECT *
+FROM dept_emp;
