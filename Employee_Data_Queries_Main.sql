@@ -76,3 +76,5 @@ FROM dept_emp;
 SELECT employees.first_name, employees.last_name, employees.gender, salaries.salary
 FROM employees
 LEFT JOIN salaries ON employees.emp_no = salaries.emp_no
+
+--Display Employees Hired in 1986
