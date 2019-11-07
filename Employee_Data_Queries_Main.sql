@@ -22,3 +22,27 @@ CREATE TABLE departments(
 SELECT *
 FROM departments;
 
+--Create Salary Table
+CREATE TABLE salaries(
+	emp_no INT NOT NULL,
+	salary INT NOT NULL,
+	from_date DATE,
+	to_date DATE,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
+	
+--Display Salary Table
+SELECT *
+FROM salaries;
+
+--Create Title Table
+CREATE TABLE titles(
+	emp_no INT NOT NULL,
+	title VARCHAR(30) NOT NULL,
+	from_date date,
+	to_date date,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
+	
+--Display Title Table
+SELECT *
+FROM titles;
+
