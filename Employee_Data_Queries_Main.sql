@@ -100,3 +100,18 @@ SELECT last_name, first_name
 FROM employees
 WHERE first_name = 'Hercules'
 AND LEFT(last_name, 1) = 'B';
+
+--Display Sales Department Employee Emp #/Last Name/First Name/Department Name
+SELECT dept_emp.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM dept_emp
+LEFT JOIN departments ON dept_emp.dept_no = departments.dept_no
+LEFT JOIN employees ON dept_emp.emp_no = employees.emp_no
+WHERE departments.dept_name = 'Sales';
+
+--Display Sales/Development Department Employee Dep #/Last Name/First Name/Department Name
+SELECT dept_emp.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM dept_emp
+LEFT JOIN departments ON dept_emp.dept_no = departments.dept_no
+LEFT JOIN employees ON dept_emp.emp_no = employees.emp_no
+WHERE departments.dept_name = 'Sales'
+OR departments.dept_name = 'Development';
