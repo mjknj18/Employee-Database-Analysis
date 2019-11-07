@@ -115,3 +115,9 @@ LEFT JOIN departments ON dept_emp.dept_no = departments.dept_no
 LEFT JOIN employees ON dept_emp.emp_no = employees.emp_no
 WHERE departments.dept_name = 'Sales'
 OR departments.dept_name = 'Development';
+
+--Display Frequency Count of Employee Last Names
+SELECT last_name, count(*)
+FROM employees
+GROUP BY last_name
+ORDER BY count DESC;
