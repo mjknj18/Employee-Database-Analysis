@@ -71,3 +71,4 @@ CREATE TABLE dept_emp(
 --Display Department Employee Table
 SELECT *
 FROM dept_emp;
+
