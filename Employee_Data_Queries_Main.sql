@@ -117,7 +117,7 @@ WHERE departments.dept_name = 'Sales'
 OR departments.dept_name = 'Development';
 
 --Display Frequency Count of Employee Last Names
-SELECT last_name, count(*)
+SELECT last_name, COUNT(last_name) AS "frequency"
 FROM employees
 GROUP BY last_name
-ORDER BY count DESC;
+ORDER BY frequency DESC;
