@@ -26,6 +26,20 @@
 
 ## Tasks
 
+### SQL Database Initialization & Table Creation & Data Import
+
+
+
+### Database Queries (Questions 1 - 8)
+
+
+
+### Jupyter Notebook Creation & SQL Table Import
+
+
+
+### Python Analysis (Questions 9 -10)
+
 
 
 ## Results
