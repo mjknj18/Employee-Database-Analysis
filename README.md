@@ -1,6 +1,6 @@
 # Employee-Database-Analysis
 
-The goal of this project was to extract, process, and analyze corporate employee data contained in multiple CSV datasets. The former tasks were completed using SQL queries (through PostgreSQL) to extract desired data, and the latter was performed using Python with Pandas, Numpy, and Matplotlib (through Jupyter Notebooks) to generate meaninful visualizations.
+The goal of this project was to extract, process, and analyze corporate employee data contained in multiple CSV datasets. The former tasks were completed using SQL queries (through PostgreSQL) to extract desired data, and the latter was performed using Python with Pandas, Numpy, and Matplotlib (through Jupyter Notebooks) to generate meaningful visualizations.
 
 ## Questions
 
