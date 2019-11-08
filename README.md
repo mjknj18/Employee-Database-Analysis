@@ -38,15 +38,27 @@
 
 
 
-### Python Analysis (Questions 9 -10)
+### Python Analysis (Questions 9 - 10)
 
 
 
 ## Results
 
+### Database Queries (Questions 1 - 8)
+
+
+
+### Python Analysis (Questions 9 - 10)
+
 
 
 ## Observations
+
+### Database Queries (Questions 1 - 8)
+
+
+
+### Python Analysis (Questions 9 - 10)
 
 
 
