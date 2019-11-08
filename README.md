@@ -37,7 +37,10 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Modeling
 
-
+1. Inspect employee data CSV datasets.
+2. Determine parameters for primary and foreign keys.
+3. Create table schema in online entity relationship diagram (ERD) software (http://www.quickdatabasediagrams.com/).
+4. Connect tables with foreign keys to tables with matching primary keys.
 
 ### Data Engineering
 
