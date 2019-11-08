@@ -65,7 +65,7 @@
 
 ### Data Modeling
 
-<img_src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Data_ERD.PNG>
+<img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Data_ERD.PNG>
 
 ### Data Engineering
 
@@ -75,11 +75,11 @@
 
 #### Employee Salary Distribution
 
-<img_src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Salary_Distribution.png>
+<img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Salary_Distribution.png>
 
 #### Employee Title Average Salary
 
-<img_src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Average_Employee_Salary.png>
+<img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Average_Employee_Salary.png>
 
 ## Disclaimer
 
