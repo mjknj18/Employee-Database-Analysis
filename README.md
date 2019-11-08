@@ -77,7 +77,7 @@
 
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Salary_Distribution.png>
 
-#### Employee Title Average Salary
+#### Employee Average Salary by Title
 
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Average_Employee_Salary.png>
 
