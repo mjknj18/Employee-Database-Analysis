@@ -44,7 +44,10 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Engineering
 
-
+1. Create PostgreSQL database for employee data.
+2. Create table schema in database.
+3. Import employee data CSV datasets into appropriate tables.
+4. Perform appropriate queries to obtain desired data.
 
 ### Data Analysis
 
@@ -69,11 +72,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Analysis
 
-#### Employee Salary Distribution
-
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Salary_Distribution.png>
-
-#### Employee Average Salary by Title
 
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Average_Employee_Salary.png>
 
