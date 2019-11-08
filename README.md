@@ -51,20 +51,6 @@
 
 ### Data Modeling
 
-
-
-### Data Engineering
-
-
-
-### Data Analysis
-
-
-
-## Observations
-
-### Data Modeling
-
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Employee_Data_ERD.PNG>
 
 ### Data Engineering
@@ -80,6 +66,20 @@
 #### Employee Average Salary by Title
 
 <img src = https://github.com/mjknj18/Employee-Database-Analysis/blob/master/Images/Average_Employee_Salary.png>
+
+## Observations
+
+### Data Modeling
+
+
+
+### Data Engineering
+
+
+
+### Data Analysis
+
+
 
 ## Disclaimer
 
