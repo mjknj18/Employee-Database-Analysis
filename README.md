@@ -4,6 +4,12 @@
 
 ## Questions
 
+### Data Modeling
+
+1. How do the datasets of employee data relate to each other?
+
+### Data Engineering
+
 1. What is the employee number, last name, first name, gender, and salary of each employee?
 2. What is the last name, first name, and hire date of each employee hired in 1986?
 3. What is the department number, department name, employee number, last name, first name, start date, and end date of each department manager?
@@ -12,8 +18,11 @@
 6. What is the employee number, last name, first name, and department name of each employee in the sales department?
 7. What is the employee number, last name, first name, and department name of each employee in the sales and development department?
 8. In descending order, what is the frequency count of employee last names?
-9. What are the most common employee salary ranges?
-10. What is the average salary for each employee title?
+
+### Data Analysis
+
+1. What are the most common employee salary ranges?
+2. What is the average salary for each employee title?
 
 ## Datasets
 
@@ -26,39 +35,43 @@
 
 ## Tasks
 
-### SQL Database Initialization & Table Creation & Data Import
+### Data Modeling
 
 
 
-### Database Queries (Questions 1 - 8)
+### Data Engineering
 
 
 
-### Jupyter Notebook Creation & SQL Table Import
-
-
-
-### Python Analysis (Questions 9 - 10)
+### Data Analysis
 
 
 
 ## Results
 
-### Database Queries (Questions 1 - 8)
+### Data Modeling
 
 
 
-### Python Analysis (Questions 9 - 10)
+### Data Engineering
+
+
+
+### Data Analysis
 
 
 
 ## Observations
 
-### Database Queries (Questions 1 - 8)
+### Data Modeling
 
 
 
-### Python Analysis (Questions 9 - 10)
+### Data Engineering
+
+
+
+### Data Analysis
 
 
 
