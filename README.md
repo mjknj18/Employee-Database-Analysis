@@ -51,7 +51,18 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Analysis
 
-
+1. Establish connection between PostgreSQL database and Jupyter Notebook file.
+2. Extract list of table names from database.
+3. Extract table metadata from database.
+4. Extract table data from database to identically named Pandas data frames.
+5. Replace null values in each data frame with appropriate default values.
+6. Calculate minimum and maximum employee salary.
+7. Generate equally sized salary range bins based on minimum and maximum salary data.
+8. Calculate number of salaries within each bin.
+9. Plot histogram of employee salary frequencies.
+10. Merge employee salary and title data into single data frame.
+11. Group data by title and calculate average salary for each title.
+12. Plot bar chart of average employee salary by title.
 
 ## Results
 
