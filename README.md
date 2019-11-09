@@ -91,7 +91,9 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Modeling
 
-
+1. There are two primary keys of employee number and department number in the employees and departments tables respectively.
+2. Employee number is a foreign key in the titles, salaries, and department employee tables, which links them to the employees table.
+3. Department number is a foreign key in the department manager and department employee tables, which links them to the departments table.
 
 ### Data Engineering
 
