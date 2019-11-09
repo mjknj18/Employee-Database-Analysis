@@ -47,7 +47,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 1. Create PostgreSQL database for employee data.
 2. Create table schema in database.
 3. Import employee data CSV datasets into appropriate tables.
-4. Perform appropriate queries to obtain desired data.
+4. Perform appropriate queries, within and between tables, to obtain desired data.
 
 ### Data Analysis
 
@@ -97,7 +97,14 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Engineering
 
-
+1. There are 300,024 employees in the database for whom a salary record is present.
+2. There were 36,150 employees hired in 1986.
+3. Only 24 employees have been managers of the 9 departments.
+4. There are 331,603 employees in the database for whom a department assignment is present.
+5. Only 20 employees have a last name that begins with B and a first name of Hercules.
+6. A total of 52,245 employees have been assigned to the sales department.
+7. A total of 137,952 employees have been assigned to either the sales or development departments.
+8. There are 1,638 unique last names, with all but one having over 140 occurences.
 
 ### Data Analysis
 
