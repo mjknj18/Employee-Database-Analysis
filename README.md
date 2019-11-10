@@ -91,7 +91,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Modeling
 
-1. There are two primary keys of employee number and department number in the employees and departments tables respectively.
+1. There are two primary keys of employee number and department number in the employees table and departments table respectively.
 2. Employee number is a foreign key in the titles, salaries, and department employee tables, which links them to the employees table.
 3. Department number is a foreign key in the department manager and department employee tables, which links them to the departments table.
 
@@ -99,7 +99,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 1. There are 300,024 employees in the database for whom a salary record is present.
 2. There were 36,150 employees hired in 1986.
-3. Only 24 employees have been managers of the 9 departments.
+3. Only 24 employees have been managers of one or more of the nine departments.
 4. There are 331,603 employees in the database for whom a department assignment is present.
 5. Only 20 employees have a last name that begins with B and a first name of Hercules.
 6. A total of 52,245 employees have been assigned to the sales department.
