@@ -59,7 +59,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 6. Calculate minimum and maximum employee salary.
 7. Generate equally-sized salary range bins based on minimum and maximum salaries.
 8. Calculate number of salaries within each bin.
-9. Plot histogram of employee salary frequencies.
+9. Plot histogram of employee salary range frequencies.
 10. Merge employee salary and title data frames into single data frame.
 11. Group new data frame by title and calculate average salary for each title.
 12. Plot bar chart of average employee salary by title.
