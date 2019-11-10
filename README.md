@@ -104,7 +104,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 5. Only 20 employees have a last name that begins with B and a first name of Hercules.
 6. A total of 52,245 employees have ever been assigned to the sales department.
 7. A total of 137,952 records are present for employees assigned to the sales and/or development departments.
-8. There are 1,638 unique last names, with all but one having over 140 occurences.
+8. There are 1,638 unique last names, with all but one having over 140 occurrences.
 
 ### Data Analysis
 
