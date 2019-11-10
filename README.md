@@ -108,10 +108,8 @@ The goal of this project was to extract, process, and analyze corporate employee
 
 ### Data Analysis
 
-1. The vast majority of employees have salaries between $40,000 and $50,000, with a significant decrease in frequency to the next highest range.
-2. The frequencies decrease slowly across the remaining salary ranges, with no salaries being greater than $130,000.
-3. Senior staff and staff have the highest average salaries, followed by managers.
-4. Senior engineers, engineers, assistant engineers, and technique leaders all have roughly the same average salary.
+1. The vast majority of employees have salaries between $40,000 and $50,000, with a significant decrease in frequency to the next highest range. The frequencies decrease slowly across the remaining salary ranges, with no salaries being greater than $130,000.
+2. Senior staff and staff have the highest average salaries, followed by managers. Senior engineers, engineers, assistant engineers, and technique leaders all have roughly the same average salary.
 
 ## Disclaimer
 
