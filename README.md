@@ -100,7 +100,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 1. There are 300,024 employees in the database for whom a salary record is present.
 2. There were 36,150 employees hired in 1986.
 3. Only 24 employees have been managers of one or more of the nine departments.
-4. There are 331,603 records for employee department assignments, as some employees worked in multiple departments over time.
+4. There are 331,603 records for employee department assignments, as some employees worked in multiple departments during their tenure.
 5. Only 20 employees have a last name that begins with B and a first name of Hercules.
 6. A total of 52,245 employees have been assigned to the sales department.
 7. A total of 137,952 employees have been assigned to either the sales or development departments.
