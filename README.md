@@ -47,7 +47,7 @@ The goal of this project was to extract, process, and analyze corporate employee
 1. Create PostgreSQL database for employee data.
 2. Create table schema in database.
 3. Import employee data CSV datasets into appropriate tables.
-4. Perform appropriate queries, within and between tables, to obtain desired data.
+4. Perform appropriate queries, within and across tables, to obtain the desired data.
 
 ### Data Analysis
 
